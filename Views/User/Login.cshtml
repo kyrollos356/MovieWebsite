@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/DefaultLayout.cshtml";
+}
+
+<body>
+    <form action="DisplayInfo" method="post">
+        <div class="container">
+            <h1>Login</h1>
+            <p>Please fill in this form to login your account.</p>
+            <hr>
+
+            <label for="email"><b>Name</b></label>
+            <input type="text" name="name" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" name="password" required>
+            <hr>
+            <button type="submit" > Log in </button>
+        </div>
+    </form>
+
+</body>
